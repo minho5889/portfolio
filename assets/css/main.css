@@ -1,11 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
-/*
-	Dopetrope by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1568,8 +1564,9 @@ input, select, textarea {
 
 /* Box */
 
+
 	.box {
-		background: #ffffff;
+		background: #d1452528;
 		border-bottom: solid 1px #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;
 	}
@@ -1577,29 +1574,102 @@ input, select, textarea {
 		.box .image.featured {
 			position: relative;
 			width: auto;
-			left: 1.75em;
-			top: 1.75em;
-			margin: -4.5em 0 4.25em -3.5em;
+			left: 3.75em;
+			top: 3.75em;
+			margin: -3.5em 4.5em 4.25em -2.5em;
 		}
 
 		.box.post header {
 			padding-top: 1em;
-			margin: 0 0 2em 0;
+			margin: 0 0 .5em 1.5em;
 		}
 
 		.box.post h2 {
 			font-size: 2.5em;
 			letter-spacing: -0.015em;
+			
+		}
+
+		.box.post p {
+			font-size: 1.3em;
+			margin: 0 1.5em .5em 1.5em;
 		}
 
 		.box.post header > p {
-			margin-top: 1.25em;
+			margin-top: 1;
 			font-size: 1.25em;
+			margin: 0.5em 0em .5em 0em;
 		}
 
 		.box footer ul.actions {
 			margin-bottom: 0;
 		}
+
+		.logog {
+			position: relative;
+			size: 3px;
+			display: block;
+			margin-bottom: -1.05em;
+		}
+/* Box - ABOUT*/
+
+		.box.post {
+			background: #d1452522;
+			border-bottom: solid 1px #ccc;
+			padding: 2.75em 1.75em 2.75em 1.75em;
+		}
+
+		#imageFeatured {
+			position: relative;
+			width: auto;
+			left: 1.75em;
+			top: 1.75em;
+			margin: -4.5em 0em 4.25em -3.5em;
+		}
+
+		.box.post.me header {
+			padding-top: 1em;
+			margin: 0 2em -.8em 2em;
+		}
+
+		.box.post.me h2 {
+			font-size: 2.5em;
+			letter-spacing: -0.015em;
+		}
+
+		.box.post.me h3 {
+			font-size: 1.25em;
+			letter-spacing: -0.015em;
+			margin: 0 2em 0em 1.5em;
+		}
+
+		.box.post.me header > p {
+			margin-top: 0.6em;
+			font-size: 1.25em;
+		}
+
+		.box.post.me p {
+			margin-top: 0.6em;
+			font-size: 1.25em;
+			margin-right: 19em;
+		}
+
+		.box footer ul.actions {
+			margin-bottom: 0;
+		}
+
+		#about-me-quote {
+			font-size: 1.4em;
+			margin-right: 1em;
+			font-weight: bold;
+		}
+
+		#filler{
+			color: #d1452500;
+			background: #d1452500;
+			text-decoration: none;
+		}
+
 
 /* Button */
 
@@ -1640,7 +1710,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #c51349;
+			background: #d51349;
 		}
 
 		input[type="button"].alt,
@@ -1656,7 +1726,8 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #353132;
+				background: #c53359;
+				
 			}
 
 			input[type="button"].alt:active,
@@ -1664,7 +1735,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background: #151112;
+				background: #dd1349;
 			}
 
 		input[type="button"].icon:before,
@@ -2102,7 +2173,7 @@ input, select, textarea {
 
 				#nav > ul > li > a {
 					border-radius: 5px;
-					color: #5d5d5d;
+					color: #000000;
 					text-decoration: none;
 					padding: 0.6em 1.2em 0.6em 1.2em;
 					-moz-transition: background-color .25s ease-in-out;
@@ -2113,7 +2184,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a, #nav > ul > li.active > a {
-					background: #f3f3f3;
+					background: #d5234922;
 				}
 
 				#nav > ul > li.current > a {
@@ -2173,9 +2244,9 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		background: #fff url("../../images/motionblur.png");
 		background-position: center center;
-		background-size: auto 100%;
+		background-size: auto 130%;
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
@@ -2203,6 +2274,11 @@ input, select, textarea {
 				font-style: normal;
 				margin: 0;
 				font-size: 1.5em;
+			}
+			#mallmann {
+				text-decoration: none;
+				background-color: none;
+				color: black;
 			}
 
 /* Intro */
@@ -2266,7 +2342,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: #f9f9f9 url("images/bg02.png");
 		padding: 4em 0 4em 0;
 	}
 
@@ -2283,7 +2359,7 @@ input, select, textarea {
 		}
 
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			background: #f9f9f9 url("images/bg02.png");
 		}
 
 /* Footer */
