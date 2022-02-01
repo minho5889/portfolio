@@ -1569,7 +1569,7 @@ input, select, textarea {
 
 
 	.box {
-		background: #d1452528;
+		background: #F1AFDD09;
 		border-bottom: solid 1px #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;
 		box-shadow: 3px 3px 3px #FE2C55, 6px 6px 6px black, 9px 9px 9px #25F4EE, 0px 0px 7px -2px #000000;
@@ -1665,10 +1665,8 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
-		#filler{
-			color: #d1452500;
-			background: #d1452500;
-			text-decoration: none;
+		#abab{
+			background: #d1342517;
 		}
 
 
