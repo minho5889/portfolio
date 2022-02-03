@@ -1569,7 +1569,7 @@ input, select, textarea {
 
 
 	.box {
-		background: #F1AFDD09;
+		background: #f6e7e6;
 		border-bottom: solid 1px #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;
 		box-shadow: 3px 3px 3px #FE2C55, 6px 6px 6px black, 9px 9px 9px #25F4EE, 0px 0px 7px -2px #000000;
@@ -1654,11 +1654,24 @@ input, select, textarea {
 		}
 
 		#inside {
-			background: white;
+			background: #230220;
+			color: #fff;
+			font-size: 1em;
 			padding: 1.75em 0.35em 1.75em 0.35em;
-			margin: 0em 1em 0em 2.5em;
-			letter-spacing: -0.015em;
-			box-shadow: -20px 0px black;
+			margin: 0em 1em 0em 3em;
+			letter-spacing: 0.125em;
+			box-shadow: -30px 0px #FE2C55;
+		}
+
+		#inside #highli{
+			color: #25F4EE
+		}
+
+		#inside #hashtag{
+			/* padding: 1.75em 0.35em 1.75em 0.35em; */
+			/* margin: 0em 1em 0em 3em; */
+			color: #25F4EE;
+			font-size: 1.3em;
 		}
 
 		.box footer ul.actions {
@@ -1694,7 +1707,7 @@ input, select, textarea {
 		-webkit-transition: background-color .25s ease-in-out;
 		-ms-transition: background-color .25s ease-in-out;
 		transition: background-color .25s ease-in-out;
-		box-shadow: -2.25px -2.25px #FE2C55, 2.25px 2.25px cyan;
+		box-shadow: -2.25px -2.25px #FE2C55, 2.25px 2.25px #25F4EE;
 	}
 
 		input[type="button"]:hover,
